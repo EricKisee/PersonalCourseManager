@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PersonalCourseManager</string>
+    <string name="title_activity_semester">SemesterActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_title_home">Modules</string>
+    <string name="msg_no_notes">No modules found!</string>
+    <string name="lbl_new_module_title">New Module</string>
+    <string name="lbl_edit_module_title">Edit Module</string>
+    <string name="hint_enter_note">Enter your Module!</string>
+    <string name="title_semester_list">Semisters</string>
+    <string name="title_semester_detail">Semester Detail</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_reminder">ReminderActivity</string>
+    <string name="title_activity_module">ModuleActivity</string>
+</resources>

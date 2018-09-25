@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sem1"
+            android:icon="@drawable/ic_semester"
+            android:title="1st Semester" />
+        <item
+            android:id="@+id/nav_sem2"
+            android:icon="@drawable/ic_semester"
+            android:title="2nd Semester" />
+        <item
+            android:id="@+id/nav_sem3"
+            android:icon="@drawable/ic_semester"
+            android:title="3rd Semester" />
+        <item
+            android:id="@+id/nav_sem4"
+            android:icon="@drawable/ic_semester"
+            android:title="4th Semester" />
+        <item
+            android:id="@+id/nav_sem5"
+            android:icon="@drawable/ic_semester"
+            android:title="5th Semester" />
+        <item
+            android:id="@+id/nav_sem6"
+            android:icon="@drawable/ic_semester"
+            android:title="6th Semester" />
+    </group>
+
+    <item android:title="Tools">
+        <menu>
+            <item
+                android:id="@+id/nav_reminders"
+                android:icon="@drawable/ic_reminder"
+                android:title="Reminders" />
+        </menu>
+    </item>
+
+</menu>

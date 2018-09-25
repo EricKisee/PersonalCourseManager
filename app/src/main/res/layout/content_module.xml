@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ModuleActivity"
+    tools:showIn="@layout/activity_module">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="2dp"
+        android:layout_margin="10dp"
+        android:padding="5dp">
+
+
+        <TextView android:id="@+id/tv_semester_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_10"
+            android:fontFamily="sans-serif-medium"
+            android:text="Semister"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/tv_module_title"
+            android:textStyle="normal" />
+
+        <View android:id="@+id/separator"
+            android:background="#80555555"
+            android:layout_width = "40dp"
+            android:layout_margin="5dp"
+            android:layout_height="1dip"
+            android:layout_centerVertical ="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView android:id="@+id/tv_semester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_10"
+            android:fontFamily="sans-serif-medium"
+            android:text="Semester"
+            android:textSize="@dimen/tv_module_text"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="2dp"
+        android:layout_margin="10dp"
+        android:padding="5dp">
+
+
+        <TextView android:id="@+id/tv_lecturer_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_10"
+            android:fontFamily="sans-serif-medium"
+            android:text="Lecturer"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/tv_module_title"
+            android:textStyle="normal" />
+
+        <View android:id="@+id/separator2"
+            android:background="#80555555"
+            android:layout_width = "40dp"
+            android:layout_margin="5dp"
+            android:layout_height="1dip"
+            android:layout_centerVertical ="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView android:id="@+id/tv_lecturer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_10"
+            android:fontFamily="sans-serif-medium"
+            android:text="Lecturer Name"
+            android:textSize="@dimen/tv_module_text"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="2dp"
+        android:layout_margin="10dp"
+        android:padding="5dp">
+
+
+        <TextView android:id="@+id/tv_duration_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_10"
+            android:fontFamily="sans-serif-medium"
+            android:text="Duration"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/tv_module_title"
+            android:textStyle="normal" />
+
+        <View android:id="@+id/separator3"
+            android:background="#80555555"
+            android:layout_width = "40dp"
+            android:layout_margin="5dp"
+            android:layout_height="1dip"
+            android:layout_centerVertical ="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView android:id="@+id/tv_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_10"
+            android:fontFamily="sans-serif-medium"
+            android:text="Duration"
+            android:textSize="@dimen/tv_module_text"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="2dp"
+        android:layout_margin="10dp"
+        android:padding="5dp">
+
+
+        <TextView android:id="@+id/tv_marks_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_10"
+            android:fontFamily="sans-serif-medium"
+            android:text="Marks"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/tv_module_title"
+            android:textStyle="normal" />
+
+        <View android:id="@+id/separator4"
+            android:background="#80555555"
+            android:layout_width = "40dp"
+            android:layout_margin="5dp"
+            android:layout_height="1dip"
+            android:layout_centerVertical ="true"
+            android:layout_alignParentTop="true"/>
+
+        <TextView android:id="@+id/tv_marks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_10"
+            android:fontFamily="sans-serif-medium"
+            android:text="Marks"
+            android:textSize="@dimen/tv_module_text"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</LinearLayout>
